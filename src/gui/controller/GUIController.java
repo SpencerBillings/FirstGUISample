@@ -12,7 +12,8 @@ public class GUIController
 	{
 		// Always instantiate your gui AFTER you've instantiated your model!
 		myDuck = new Duck(); // Model
-		appFrame = new FirstFrame(); // GUI
+		appFrame = new FirstFrame(this); // GUI
+		// To build a reference and send it, you pass 'this' as a parameter
 	}
 	
 	public void Start()
