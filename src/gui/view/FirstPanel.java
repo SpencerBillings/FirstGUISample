@@ -9,7 +9,6 @@ import java.awt.event.ActionListener;
 
 public class FirstPanel extends JPanel 					// Must have
 {
-	
 	private GUIController appController;
 	private JButton myButton;
 	private JLabel myLabel;
